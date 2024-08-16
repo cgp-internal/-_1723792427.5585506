@@ -1,0 +1,33 @@
+# See https://help.github.com/ignore-files/ for more information
+
+# Node_modules and dependencies
+node_modules/
+bower_components/
+
+# Cache files
+.cache/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+
+# Logs
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+pnpm-debug.log
+pnpm-error.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.iml
+*.ipynb
+
+# Other files
+coverage/
+*.local
+*.vscode-test*
