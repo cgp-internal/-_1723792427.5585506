@@ -1,0 +1,22 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "A basic React project, creating a single-page application (SPA) with a minimalistic user interface.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0"
+  },
+  "exports": {
+    "./App": "./src/App.js",
+    "./Header": "./src/components/Header.js",
+    "./Footer": "./src/components/Footer.js",
+    "./useTheme": "./src/hooks/useTheme.js"
+  }
+}
